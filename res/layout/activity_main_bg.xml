@@ -8,11 +8,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="uni.ruse.holo3d.MainActivity" >
 
-        <TextView
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/select"
+        android:text="@string/select_bg"
         android:textSize="13sp" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="10dp"
-        android:text="@string/how"
+        android:text="@string/how_bg"
         android:textSize="13sp" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="10dp"
-        android:text="@string/step_1"
+        android:text="@string/step_1_bg"
         android:textSize="13sp" />
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_alignStart="@+id/textView3"
         android:layout_below="@+id/textView3"
         android:layout_marginTop="10dp"
-        android:text="@string/step_2"
+        android:text="@string/step_2_bg"
         android:textSize="13sp" />
 
     <TextView
@@ -56,7 +56,7 @@
         android:layout_alignStart="@+id/textView4"
         android:layout_below="@+id/textView4"
         android:layout_marginTop="15dp"
-        android:text="@string/step_3"
+        android:text="@string/step_3_bg"
         android:textSize="13sp" />
 
     <TextView
@@ -67,41 +67,38 @@
         android:layout_alignStart="@+id/textView5"
         android:layout_below="@+id/textView5"
         android:layout_marginTop="10dp"
-        android:text="@string/step_4"
+        android:text="@string/step_4_bg"
         android:textSize="13sp" />
 
     <Button
-        android:id="@+id/gallery"
-        android:layout_width="150sp"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/object"
-        android:layout_alignBottom="@+id/object"
-        android:layout_toEndOf="@+id/object"
-        android:layout_toRightOf="@+id/object"
-        android:drawableLeft="@drawable/gallery"
-        android:drawablePadding="10sp"
-        android:drawableStart="@drawable/gallery"
-        android:text="@string/gallery" />
-
-    <Button
         android:id="@+id/object"
-        android:layout_width="150sp"
+        android:layout_width="145sp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView1"
-        android:drawableLeft="@drawable/object"
-        android:drawablePadding="10sp"
+        android:drawableLeft="@drawable/object" 
         android:drawableStart="@drawable/object"
-        android:text="@string/object" />
+        android:text="@string/object_bg" />
 
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="145sp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tr_pyramid"
+        android:layout_alignRight="@+id/tr_pyramid"
+        android:layout_alignTop="@+id/object"
+        android:drawableLeft="@drawable/gallery"
+        android:drawableStart="@drawable/gallery"
+        android:text="@string/gallery_bg" />
 
     <Button
         android:id="@+id/tr_pyramid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/gallery"
-        android:layout_centerHorizontal="true"
-        android:text="@string/tr_pyramid" />
+        android:layout_above="@+id/object"
+        android:layout_alignLeft="@+id/object"
+        android:layout_alignStart="@+id/object"
+        android:text="@string/tr_pyramid_bg" />
 
 </RelativeLayout>
