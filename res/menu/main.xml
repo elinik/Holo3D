@@ -1,1 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uni.ruse.holo3d.MainActivity" >
 
+ <item
+        android:id="@+id/color"
+        android:showAsAction="ifRoom"
+        android:title="@string/color"
+        android:icon="@drawable/color"/>
+  <item
+        android:id="@+id/object"
+        android:showAsAction="ifRoom"
+        android:title="@string/object"
+        android:icon="@drawable/object"/>
+</menu>
