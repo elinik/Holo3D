@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Holo 3D</string>
+    <string name="bg">BG</string>
+    <string name="select_bg">Просто и лесно за използване приложение. Създавате виртуална холограма с прозрачна пирамида.</string>
+    <string name="how_bg">КАК РАБОТИ:</string>
+    <string name="step_1_bg">  1. Избирате Обект или Галерия.</string>
+    <string name="step_2_bg">  2. Ако изберете ОБЕКТ - избирате между куб, конус, сфера, цилиндър и пирамида. От менюто избирате цвят. </string>
+    <string name="step_3_bg">  3. Ако изберете ГАЛЕРИЯ - избирате снимки от галерията на обекта от 4 страни - отзад, отляво, отдясно, отпред (една по една). </string>
+    <string name="step_4_bg">  4. След като поставите прозрачна пирамида в центъра на LCD екрана, виртуалната холограмата се генерира в нея.</string>
+    <string name="tr_pyramid_bg">Направи си прозрачна пирамида</string>
+    <string name="template_bg">Начертайте шаблона на лист хартия.
+         Изрежете квадрат със страна 15 см от прозрачен картон. 
+         Залепете страните на квадрата с тиксо за хартията. 
+         Изрежете по черната линия, а по червената прегънете. 
+         Залепете пирамидата с тиксо или лепило.
+         Изрежете основа от бял картон или хартия и залепете.</string>
+    <string name="object_bg">Обект</string>
+    <string name="gallery_bg">Галерия</string>
+    <string name="cube_bg">Куб</string>
+    <string name="cone_bg">Конус</string>
+    <string name="cylinder_bg">Цилиндър</string>
+    <string name="pyramid_bg">Пирамида</string>
+    <string name="sphere_bg">Сфера</string>
+    <string name="load_bg">Отвори галерия</string>
+    <string name="en">EN</string>
+    <string name="select">Simple and easy to use creator. 
+        This is app to create virtual hologram with a holographic pyramid.</string>
+    <string name="how">HOW IT WORKS:</string>
+    <string name="step_1">  1. Select OBJECT or GALLERY.</string>
+    <string name="step_2">  2. If pick OBJECT - Can select between a cube, cone, sphere, cylinder and pyramid. From the menu select color.</string>
+    <string name="step_3">  3. If pick GALLERY - Select pictures from gallery of the subject from 4 sides - back, left, right, front (one by one).</string>
+    <string name="step_4">  4. After you place transparent pyramid in the center of the LCD screen, the virtual hologram is generated in it.</string>
+    <string name="cube">Cube</string>
+    <string name="cone">Cone</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="pyramid">Pуramid</string>
+    <string name="sphere">Sphere</string>
+    <string name="tr_pyramid">Make transparent pyramid</string>
+    <string name="template">Draw a template a sheet of paper. 
+        Cut a square of side 15 cm of transparent plastic. 
+        Glue the sides of the square with tape paper. 
+        Cut a black line and the red fold. 
+        Glue the pyramid with tape or glue. 
+        Cut the base of white cardboard or paper.</string>
+    <string name="color">Color</string>
+    <string name="object">Object</string>
+    <string name="gallery">Gallery</string>
+    <string name="load">Open gallery</string>
+
+</resources>
